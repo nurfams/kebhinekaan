@@ -76,26 +76,81 @@ koordinat(-0.572037, 100.821533,
     "Suku Minang yang berasal dari Sumatera Barat ini memiliki budaya yang unik. Sejak abad ke-14, masyarakat Minang banyak merantau ke pesisir Timur Sumatera hingga Negeri Sembilan, Malaysia. Hal inilah yang menjadikan masyarakat Minang terkenal dengan budaya rantaunya.",
     "https://jurnalpost.com/wp-content/uploads/2021/03/Masyarakat-Minangkabau.jpg",
     "minang");
+koordinat(0.115601, 116.288915,
+    "Suku Kutai",
+    "Suku Kutai, atau Urang Kutai adalah salah satu dari rumpun suku dayak yaitu Dayak Lawangan yang mendiami wilayah Kalimantan Timur yang mayoritas saat ini beragama Islam dan hidup di tepi sungai. Pada awalnya Kutai merupakan nama suatu teritori tempat bermukimnya masyarakat asli Kalimantan. Suku Kutai berdasarkan jenisnya adalah termasuk suku Dayak Islam yang banyak menyerap nilai nilai kebudayaan suku Banjar dan Melayu pesisir yang berada di Kalimantan Timur.",
+    "https://imgs.search.brave.com/bU9spQW-4lSTcUBPvnYwgbhuvqC98gusWAGKFN_IL0w/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuaW5kb3pvbmUu/bmV3cy9kb182OTJ4/NTE2L2NvbnRlbnQv/MjAxOS8wOC8yNy85/RHN6WGEvdF81ZDY0/ZDkxMGQzMThjXzcw/MC5qcGc",
+    "kutai");
+koordinat(-3.288344, 115.059573,
+    "Suku Banjar",
+    "Suku Banjar adalah suatu kelompok etnis yang berasal dari wilayah Banjar di Provinsi Kalimantan Selatan. Suku Banjar merupakan penutur Bahasa Banjar (dengan berbagai macam dialeknya), dan terikat dalam persamaan sejarah atau latar belakang serta kebudayaan.",
+    "https://imgs.search.brave.com/E1VNLHUy8Gx9smxK3AddaTTPILczacbUikTim3Ucnmk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/aW5ld3MuY28uaWQv/bWVkaWEvODIyL2Zp/bGVzL2luZXdzX25l/dy8yMDIzLzAxLzIz/L3N1a3VfZGF5YWtf/a2V0dXJ1bmFuX2Fw/YS5qcGc",
+    "banjar");
+koordinat(-5.757812, 140.490357,
+    "Suku Muyu",
+    "Suku Muyu yaitu salah satu suku bangsa di Indonesia dan terdapat di Papua Selatan yang menempati daerah di sekitar Sungai Muyu dan terletak di sebelah timur laut Merauke. Bahasa yang mereka gunakan adalah bahasa Muyu. Istilah Muyu sendiri muncul dari dua perkiraan, yaitu muncul seiring dengan masuknya misi Katolik dan Pastor Petrus Hoeboer.",
+    "https://imgs.search.brave.com/U2jmlg9ETiynxbtgSkp-L4NBBLvrixmcY5beRBIDmMg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9icm9v/bmV0LmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMC8wMS81/LXN1a3UtbXV5dS5q/cGc",
+    "muyu");
+koordinat(-6.201987, 106.826846,
+    "Suku Betawi",
+    "Suku Betawi (Betawi: Orang Betawi) adalah salah satu suku bangsa di Indonesia yang memiliki kekerabatan etnis dengan Melayu, Sunda, dan Jawa. Umumnya, Orang Betawi mendiami wilayah Jakarta dan daerah sekitarnya. Kemunculan Betawi pertama kali pada abad ke-18 sebagai suatu komunitas dari beberapa etnis yang menetap di Batavia.",
+    "https://imgs.search.brave.com/O2hBi0bvyUfYSh5bk4L3EzfVe9iE6_nqxDWPUbvndhg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ibHVl/Lmt1bXBhcmFuLmNv/bS9pbWFnZS91cGxv/YWQvZmxfcHJvZ3Jl/c3NpdmUsZmxfbG9z/c3ksY19maWxsLHFf/YXV0bzpiZXN0LHdf/NjQwL3YxNTAwOTM5/MzA3L2xudnh1emZ4/eXVzc2J3bWp5aTB6/LmpwZw",
+    "betawi");
+koordinat(-7.373349, 109.636834,
+    "Suku Jawa",
+    "Suku Jawa / Wong Jawa (ngoko) adalah suku bangsa Austronesia terbesar di Indonesia yang berasal dari Jawa Tengah, Jawa Timur, dan Daerah Istimewa Yogyakarta. Pada tahun 2010, setidaknya 40,22% penduduk Indonesia merupakan etnis Jawa.",
+    "https://imgs.search.brave.com/shgfn7D1LBNBuAphC2PKuo-sGcX_NpsqhuMkpIULNX4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9yYWRh/cm11a29tdWtvLmRp/c3dheS5pZC91cGxv/YWQvODAxMTk3YWYz/NzVmZTc2MjM3YTdk/OTgyMjMwMGYyMzAu/anBn",
+    "jawa");
 
 $('body').on("click", function(i){
     switch (i.target.id) {
-        case "badui":
-            linkLokasi(1500, "https://sites.google.com/view/proyek-it-development/home/suku-badui");
-            break;
-        case "bugis":
-            linkLokasi(1500, "https://www.google.com");
-            break;
         case "jambi":
+            linkLokasi(1500, "https://sites.google.com/view/proyek-it-development/home/pulau-jawa/suku-badui?authuser=0");
+            break;
+        case "minang":
             linkLokasi(1500, "https://www.google.com");
             break;
-        case "bali":
+        case "batak":
+            linkLokasi(1500, "https://www.google.com");
+            break;
+        case "badui":
                 linkLokasi(1500, "https://www.google.com");
                 break;
-        case "dayak":
-                linkLokasi(1500,"https://sites.google.com/view/proyek-it-development/home/suku-dayak?authuser=0");
+        case "jawa":
+                linkLokasi(1500,"https://sites.google.com/view/proyek-it-development/home/pulau-kalimantan/suku-dayak?authuser=0");
                 break;
-        case "ambon":
+        case "betawi":
                 linkLokasi(1500,"https://www.google.com");
+                break;
+        case "bugis":
+                linkLokasi(1500,"a");
+                break;
+        case "buton":
+                linkLokasi(1500,"");
+                break;
+        case "toraja":
+                linkLokasi(1500,"");
+                break;
+        case "dayak":
+                linkLokasi(1500,"");
+                break;
+        case "banjar":
+                linkLokasi(1500,"");
+                break;
+        case "kutai":
+                linkLokasi(1500,"");
+                break;
+        case "asmat":
+                linkLokasi(1500,"");
+                break;
+        case "dani":
+                linkLokasi(1500,"");
+                break;
+        case "muyu":
+                linkLokasi(1500,"");
+                break;
+        case "bali":
+                linkLokasi(1500,"");
                 break;
     }
 });
