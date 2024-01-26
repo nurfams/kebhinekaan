@@ -105,52 +105,52 @@ koordinat(-7.373349, 109.636834,
 $('body').on("click", function(i){
     switch (i.target.id) {
         case "jambi":
-            linkLokasi(1500, "https://sites.google.com/view/proyek-it-development/home/pulau-jawa/suku-badui?authuser=0");
+            linkLokasi(1500, "https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-sumatra/suku-jambi?authuser=0");
             break;
         case "minang":
-            linkLokasi(1500, "https://www.google.com");
+            linkLokasi(1500, "https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-sumatra/suku-minang?authuser=0");
             break;
         case "batak":
-            linkLokasi(1500, "https://www.google.com");
+            linkLokasi(1500, "https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-sumatra/suku-batak?authuser=0https://www.google.com");
             break;
         case "badui":
-                linkLokasi(1500, "https://www.google.com");
+                linkLokasi(1500, "https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-jawa/suku-badui?authuser=0");
                 break;
         case "jawa":
-                linkLokasi(1500,"https://sites.google.com/view/proyek-it-development/home/pulau-kalimantan/suku-dayak?authuser=0");
+                linkLokasi(1500,"https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-jawa/suku-jawa?authuser=0");
                 break;
         case "betawi":
-                linkLokasi(1500,"https://www.google.com");
+                linkLokasi(1500,"https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-jawa/suku-betawi?authuser=0");
                 break;
         case "bugis":
-                linkLokasi(1500,"a");
+                linkLokasi(1500,"https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-sulawesi/suku-bugis?authuser=0");
                 break;
         case "buton":
-                linkLokasi(1500,"");
+                linkLokasi(1500,"https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-sulawesi/suku-buton?authuser=0");
                 break;
         case "toraja":
-                linkLokasi(1500,"");
+                linkLokasi(1500,"https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-sulawesi/suku-toraja?authuser=0");
                 break;
         case "dayak":
-                linkLokasi(1500,"");
+                linkLokasi(1500,"https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-kalimantan/suku-dayak?authuser=0");
                 break;
         case "banjar":
-                linkLokasi(1500,"");
+                linkLokasi(1500,"https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-kalimantan/suku-banjar?authuser=0");
                 break;
         case "kutai":
-                linkLokasi(1500,"");
+                linkLokasi(1500,"https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-kalimantan/suku-kutai?authuser=0");
                 break;
         case "asmat":
-                linkLokasi(1500,"");
+                linkLokasi(1500,"https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-papua/suku-asmat?authuser=0");
                 break;
         case "dani":
-                linkLokasi(1500,"");
+                linkLokasi(1500,"https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-papua/suku-dani?authuser=0");
                 break;
         case "muyu":
-                linkLokasi(1500,"");
+                linkLokasi(1500,"https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-papua/suku-muyu?authuser=0");
                 break;
         case "bali":
-                linkLokasi(1500,"");
+                linkLokasi(1500,"https://sites.google.com/view/proyek-it-development/ensiklopedia/pulau-bali/suku-bali?authuser=0");
                 break;
     }
 });
